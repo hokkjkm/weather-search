@@ -1,0 +1,41 @@
+h1 {
+  color: blue;
+  text-align: left;
+}
+
+h2 {
+  color: red;
+  text-align: left;
+}
+
+.btn {
+  border: 2px outset #8b7e66;
+}
+.center {
+  text-align: center;
+}
+
+.tmr {
+  font-size: 27px;
+  color: salmon;
+}
+
+.lft {
+  font-size: 19px;
+  color: darksalmon;
+}
+
+.tme {
+  font-size: 20px;
+}
+
+.tempUnit {
+  color: red;
+}
+
+.tempUnit:hover {
+  font-weight: bold;
+  color: darkslateblue;
+  text-shadow: 2px 3px darkgray;
+  cursor: pointer;
+}
