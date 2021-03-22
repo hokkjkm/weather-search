@@ -39,3 +39,8 @@ h2 {
   text-shadow: 2px 3px darkgray;
   cursor: pointer;
 }
+
+.github-button {
+  display: flex;
+  justify-content: center;
+}

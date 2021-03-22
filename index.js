@@ -83,11 +83,4 @@ cUnit.addEventListener("click", ftoC);
 let fUnit = document.querySelector("#funit");
 fUnit.addEventListener("click", ctoF);
 
-/*let linktoGit = document.querySelector("github-button");
-linktoGit.addEventListener("click", linktoGithub);
-
-function linktoGithub(event) {
-  event.preventDefault();
-  
-}*/
 doSearch("San Francisco"); //change the default showing-city
