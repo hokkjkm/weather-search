@@ -39,3 +39,7 @@ h2 {
   text-shadow: 2px 3px darkgray;
   cursor: pointer;
 }
+
+.github-button {
+  margin: 50px;
+}
