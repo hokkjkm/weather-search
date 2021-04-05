@@ -1,16 +1,58 @@
+:root {
+  --primary-font: "Source Sans Pro", sans-serif;
+  --second-font: "Permanent Marker", cursive;
+}
 h1 {
-  color: blue;
   text-align: left;
 }
 
 h2 {
-  color: red;
-  text-align: left;
+  color: #1c1c1c;
 }
 
-.btn {
-  border: 2px outset #8b7e66;
+body {
+  max-width: 800px;
+  margin: auto;
 }
+
+#current-city {
+  font-family: var(--second-font);
+  font-size: 48px;
+}
+
+.tempDisplay {
+  text-align: center;
+}
+
+#todayTemprature {
+  font-family: var(--second-font);
+  font-size: 48px;
+}
+
+.dicon {
+  display: block;
+  margin: 0 auto;
+}
+
+.tempUnit {
+  font-family: "Secular One", sans-serif;
+}
+
+#weatherShow {
+  text-align: center;
+  font-family: "Secular One", sans-serif;
+  line-height: 35px;
+}
+
+.hi {
+  font-size: 28px;
+}
+
+.low {
+  color: darkgray;
+  font-size: 28px;
+}
+
 .center {
   text-align: center;
 }
@@ -26,7 +68,10 @@ h2 {
 }
 
 .tme {
+  font-family: var(--primary-font);
+  font-weight: light;
   font-size: 20px;
+  line-height: 25px;
 }
 
 .tempUnit {
@@ -38,8 +83,27 @@ h2 {
   color: darkslateblue;
   text-shadow: 2px 3px darkgray;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.github-button {
-  margin: 50px;
+.cardBody {
+  text-align: center;
+  font-family: var(--primary-font);
+}
+
+.hrlyTime {
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--primary-font);
+  font-size: 18px;
+}
+
+.bio {
+  font-family: "Work Sans", sans-serif;
+  font-size: 10px;
+}
+
+#cunit.active,
+#funit.active {
+  color: darkgray;
 }
